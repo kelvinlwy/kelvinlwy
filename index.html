@@ -27,16 +27,16 @@
     </h1>
     <ul class="nav">
         <li>
-            <a href="#bio"><i class="fa fa-user-o" aria-hidden="false"></i>me</a>
+            <a href="#bio" onClick="ga('send', 'event', 'Navigation', 'click', 'bio');"><i class="fa fa-user-o" aria-hidden="false"></i>me</a>
         </li>
         <li>
-            <a href="#portfolio"><i class="fa fa-copy"></i>work</a>
+            <a href="#portfolio" onClick="ga('send', 'event', 'Navigation', 'click', 'projects');"><i class="fa fa-copy"></i>work</a>
         </li>
         <li>
-            <a href="#skills"><i class="fa fa-lightbulb-o"></i>skills</a>
+            <a href="#skills" onClick="ga('send', 'event', 'Navigation', 'click', 'skills');"><i class="fa fa-lightbulb-o"></i>skills</a>
         </li>
         <li>
-            <a href="#contact"><i class="fa fa-envelope-o"></i>contact</a>
+            <a href="#contact" onClick="ga('send', 'event', 'Navigation', 'click', 'contact');"><i class="fa fa-envelope-o"></i>contact</a>
         </li>
     </ul>
 </div>
@@ -62,7 +62,7 @@
             <section class="grid-wrap">
                 <ul class="grid">
                     <li class="grid-sizer"></li><!-- for Masonry column width -->
-                    <li>
+                    <li onClick="ga('send', 'event', 'Portfolio', 'view', 'Game Of Phones');">
                         <figure>
                             <img src="images/gop/gop-thumbnail-cdf13490.png"/>
                             <figcaption>
@@ -162,7 +162,7 @@
                     <li>
                         <figure>
                             <figcaption>
-                                <h3>Virgin Mobile Game of Phones <a href="https://www.youtube.com/watch?v=f5bGRQyeEgw"><i class="fa fa-link" aria-hidden="true"></i></a></h3>
+                                <h3>Virgin Mobile Game of Phones <a href="https://www.youtube.com/watch?v=f5bGRQyeEgw" onClick="ga('send', 'event', 'Game of Phones', 'view', 'video');"><i class="fa fa-link" aria-hidden="true"></i></a></h3>
                                 <p class="project-info">Client: Virgin Mobile Australia | Date: Oct, 2013 | Skills: Android, Java, GPS | <i class="fa fa-android" aria-hidden="true"></i></p>
                                 <p>Australia' biggest-ever location-based mobile game which captivated almost 40,000 mobile users to join the virtual battle and hunt for virtual prizes found on the Game Of Phones' app map screen.</p>
                             </figcaption>
@@ -203,7 +203,7 @@
                     <li>
                         <figure>
                             <figcaption>
-                                <h3>4x4 Wreckcreation iOS Application <a href="https://itunes.apple.com/us/app/wreckcreation-4x4-clinometer/id1023251138?mt=8"><i class="fa fa-link" aria-hidden="true"></i></a></h3>
+                                <h3>4x4 Wreckcreation iOS Application <a href="https://itunes.apple.com/us/app/wreckcreation-4x4-clinometer/id1023251138?mt=8" onClick="ga('send', 'event', 'Wreckcreation', 'view', 'app store');"><i class="fa fa-link" aria-hidden="true"></i></a></h3>
                                 <p class="project-info">Date: May, 2015 | Skills: Swift, GPS | <i class="fa fa-apple" aria-hidden="true"></i></p>
                                 <p>4x4 Wreckcreation is a new ear in 4WD video recording which by utilising the mobile's built-in GPS, camera, gyroscope, and accelerator to facilitate 4WD video recording with graphical data telemetry overlay.</p>
                             </figcaption>
@@ -233,7 +233,7 @@
                     <li>
                         <figure>
                             <figcaption>
-                                <h3>ONTAP Android Application <a href="https://play.google.com/store/apps/details?id=au.com.ontapcars.OnTapPassenger&hl=en"><i class="fa fa-link" aria-hidden="true"></i></a></h3>
+                                <h3>ONTAP Android Application <a href="https://play.google.com/store/apps/details?id=au.com.ontapcars.OnTapPassenger&hl=en" onClick="ga('send', 'event', 'ONTAP', 'view', 'play store');"><i class="fa fa-link" aria-hidden="true"></i></a></h3>
                                 <p class="project-info">Date: Nov, 2014 | Skills: Android, Java, GPS | <i class="fa fa-android" aria-hidden="true"></i></p>
                                 <p>ONTAP provides the new channel in personal & corporate transportation across all major cities, that including Sydney, Melbourne, Brisbane, Adelaide, Canberra, and Perth, in Australia.</p>
                             </figcaption>
@@ -252,9 +252,9 @@
                     </li>
                 </ul>
                 <nav>
-                    <span class="icon nav-prev"><i class="fa fa-caret-left" aria-hidden="true"></i></span>
-                    <span class="icon nav-next"><i class="fa fa-caret-right" aria-hidden="true"></i></span>
-                    <span class="icon nav-close"><i class="fa fa-times-circle-o" aria-hidden="true"></i></span>
+                    <span class="icon nav-prev" onClick="ga('send', 'event', 'Portfolio', 'click', 'previous');"><i class="fa fa-caret-left" aria-hidden="true"></i></span>
+                    <span class="icon nav-next" onClick="ga('send', 'event', 'Portfolio', 'click', 'next');"><i class="fa fa-caret-right" aria-hidden="true"></i></span>
+                    <span class="icon nav-close" onClick="ga('send', 'event', 'Portfolio', 'click', 'close');"><i class="fa fa-times-circle-o" aria-hidden="true"></i></span>
                 </nav>
                 <!-- <div class="info-keys icon">Navigate with arrow keys</div> -->
             </section><!-- // slideshow -->
@@ -289,25 +289,25 @@
             <div class="contacts">
                 <h1 class="contacts-title">Interested in working together?</h1>
                 <span class="email">
-                    <a href="mailto:kelvinleung.aus@gmail.com" onClick="ga('send', 'event', 'Contact', 'email', 'Contacts');">
+                    <a href="mailto:kelvinleung.aus@gmail.com" onClick="ga('send', 'event', 'Contacts', 'select', 'email');">
                         <i class="fa fa-envelope-o" aria-hidden="true"></i>kelvinleung.aus@gmail.com
                     </a>
                 </span>
                 <span class="mobile">
-                    <a href="tel:61425600216" onClick="ga('send', 'event', 'Contact', 'mobile', 'Contacts');">
+                    <a href="tel:61425600216" onClick="ga('send', 'event', 'Contacts', 'select', 'mobile');">
                         <i class="fa fa-mobile" aria-hidden="true"></i>+61 425 600 216
                     </a>
                 </span>
                 <span class="resume">
-                    <a href="/assets/resume_kelvin_leung.pdf" target="_blank" onClick="ga('send', 'event', 'Contact', 'resume', 'Contacts');">
+                    <a href="/assets/resume_kelvin_leung.pdf" target="_blank" onClick="ga('send', 'event', 'Contacts', 'select', 'resume');">
                         <i class="fa fa-id-card-o" aria-hidden="true"></i>My Résumé
                     </a>
                 </span>
                 <div class="social">
-                    <a target="_blank" href="https://www.linkedin.com/in/kelvinlwy/" class="linkedin" onClick="ga('send', 'event', 'Social', 'linkedin', 'Contacts');">><i class="fa fa-linkedin linkedin" aria-hidden="false"></i></a>
-                    <a target="_blank" href="https://github.com/kelvinlwy" class="github" onClick="ga('send', 'event', 'Social', 'github', 'Contacts');"><i class="fa fa-github github" aria-hidden="false"></i></a>
-                    <a target="_blank" href="https://www.instagram.com/kelvinlwy/" class="instagram" onClick="ga('send', 'event', 'Social', 'instagram', 'Contacts');"><i class="fa fa-instagram instagram" aria-hidden="true"></i></a>
-                    <a onclick="Skype.tryAnalyzeSkypeUri('call', '0'); ga('send', 'event', 'Social', 'skype', 'Contacts');" href="skype:kelvin_lwy?call">
+                    <a target="_blank" href="https://www.linkedin.com/in/kelvinlwy/" class="linkedin" onClick="ga('send', 'event', 'Social', 'click', 'linkedin');">><i class="fa fa-linkedin linkedin" aria-hidden="false"></i></a>
+                    <a target="_blank" href="https://github.com/kelvinlwy" class="github" onClick="ga('send', 'event', 'Social', 'click', 'github');"><i class="fa fa-github github" aria-hidden="false"></i></a>
+                    <a target="_blank" href="https://www.instagram.com/kelvinlwy/" class="instagram" onClick="ga('send', 'event', 'Social', 'click', 'instagram');"><i class="fa fa-instagram instagram" aria-hidden="true"></i></a>
+                    <a onclick="Skype.tryAnalyzeSkypeUri('call', '0'); ga('send', 'event', 'Social', 'click', 'skype');" href="skype:kelvin_lwy?call">
                           <i class="fa fa-skype skype" aria-hidden="false"></i>
                     </a>
                 </div>
