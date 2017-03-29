@@ -1,4 +1,4 @@
 User-Agent: Twitterbot
 Disallow: /
 
-Sitemap: http://example.com/sitemap.xml
+Sitemap: http://kelvinleung.me/sitemap.xml
