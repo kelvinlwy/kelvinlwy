@@ -1,4 +1,4 @@
-User-Agent: Twitterbot
+User-Agent: *
 Disallow: /
 
 Sitemap: http://kelvinleung.me/sitemap.xml
